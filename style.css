@@ -24,3 +24,19 @@ a{
 a:hover{
     background-color: #047857;
 }
+
+h1{
+    text-align: center;
+    background-color: #059669;
+    color: white;
+    padding: 1.5em;
+    margin-bottom: 2em;
+    font-size: 3em;
+}
+
+article{
+    max-width: 900px;
+    margin: auto;
+    padding-left: 1em;
+    padding-right: 1em;
+}
