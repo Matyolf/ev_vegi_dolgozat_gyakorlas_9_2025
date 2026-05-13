@@ -40,3 +40,44 @@ article{
     padding-left: 1em;
     padding-right: 1em;
 }
+
+section{
+    background-color: #10b981;
+    border-left: #047857 5px solid;
+    border-radius: 5px;
+    margin: auto;
+    margin-bottom: 2em;
+    box-shadow: 0 0 15px rgba(16, 185, 129, 0.1);
+}
+
+.szoveg{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+}
+
+h2{
+    color: #065f46;
+    margin-top: 0;
+    font-size: 1.8rem;
+    text-align: justify;
+}
+
+img{
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin-top: 1rem;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+@media screen and (max-width: 600px) {
+    .szoveg{
+        grid-template-columns: 1fr;
+    }
+
+    nav {
+        flex-direction: column;
+    }
+
+}
